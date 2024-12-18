@@ -86,7 +86,7 @@ To generate Excel reports from the analysis, add the `-Report` switch:
 Invoke-PfShell -XmlPath "C:\Path\To\pfSenseExport.xml" -Report
 ```
 
-The reports will be saved in a folder named `pfShell - <hostname>` in the current directory.
+The reports will be saved in a folder named `pfSAnalysis - <hostname>` in the current directory.
 
 ---
 
