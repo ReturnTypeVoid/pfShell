@@ -1,0 +1,58 @@
+# Ignore Windows PowerShell module binary files
+*.psd1
+*.ps1xml
+*.pfx
+*.snk
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore compiled outputs or caches
+*.dll
+*.exe
+*.pyc
+*.obj
+*.so
+*.class
+*.jar
+
+# Ignore system and environment-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.rsuser
+*.rsaproj
+
+# Ignore PowerShell history and config
+*.console
+*.history
+
+# Ignore macOS specific files
+._*
+.AppleDouble
+.LSOverride
+
+# Ignore Git-specific metadata
+.git/
+.gitignore
+
+# Ignore node.js/npm caches or folders (if npm is involved)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore XML files (e.g., pfSense configurations)
+*.xml
+
+# Ignore test or temporary directories
+test/
+temp/
+
